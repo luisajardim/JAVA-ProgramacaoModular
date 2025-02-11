@@ -1,6 +1,8 @@
-package br.lpm;
 
 import org.junit.jupiter.api.Test;
+
+import br.lpm.Calculadora;
+
 import static org.junit.jupiter.api.Assertions.*;
 
 public class CalculadoraTest {
