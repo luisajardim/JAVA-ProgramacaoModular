@@ -30,7 +30,7 @@ TAXI_DOG
 SPA</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>220</x><y>138</y><w>210</w><h>110</h></coordinates><panel_attributes>Item
 --
 #valor: float
---</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>490</x><y>138</y><w>210</w><h>110</h></coordinates><panel_attributes>OS
+--</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>490</x><y>138</y><w>210</w><h>140</h></coordinates><panel_attributes>OS
 --
 - Item itens :Item []
 
