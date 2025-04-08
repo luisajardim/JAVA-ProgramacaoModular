@@ -1,0 +1,40 @@
+ENUNCIADO: 
+Requisitos funcionais:
+A clínica precisa implementar  os seguintes requisitos:
+
+A clínica realiza consultas, que são definidas por seu horário (como um capo data/hora), nome do veterinário (como um campo texto descritivo) e o animal (como um tipo enumerado).
+A clínica realiza serviços de pet shop, que são definidos pelo nome do serviço (como um texto descritivo,  por seu horário (como um capo data/hora) e o responsável (como um texto descritivo).
+A clínica ainda vende artigos, definidos pela sua descrição (como um texto descritivo).
+Os animais que a clínica atende são: CÃO, GATO, AVE, REPTIL, ROEDOR.
+Os serviços de pet shop são: BANHO, TOSA, EXAME, TAXI_DOG e SPA.
+Um cliente deve ser capaz de solicitar serviços veterinários, serviços de pet shop ou artigos de pet shop em uma única Ordem de Serviço (OS). Para simplificar a implementação, considere que se um produto ou serviço for comprado mais de uma vez ele deverá ser cadastrado várias vezes na OS.
+Os artigos de pet shop podem ser separadas em novas e usadas, e o sistema deve definir a garantia em função do tipo da peça. A garantia de artigos usados é de 30 dias, enquanto a garantia de artigos novos deve ser determinada pelo fabricante.
+A OS deve possuir um número que deve ser gerado como autoincremento, o nome do cliente e a lista de itens e serviços comprados.
+A OS deve possuir um método double calcularTotal() que retorna o valor total da OS.
+A OS deve possuir um método void exibirOs() que exibe todos os detalhes da OS.
+Para simplificar a implementação, considere que a OS permite apenas a adição de novos itens. Não é necessário implementar a remoção ou substituição de itens.
+Tarefas:
+Criação do projeto:
+
+Utilize a ferramenta Maven para construir o projeto: group ID br.lpm e Artifact ID: prova_01
+Modelagem UML:
+
+Elabore diagrama de classes UML utilizando o UMLet chamado uml-class-diagram.uxf que represente os elementos e as relações descritas acima.
+Use corretamente os conceitos de associação, agregação e composição.
+Adicione a navegabilidade e multiplicidade das associações.
+Adicione os estereótipos quando necessário.
+Identifique atributos static e final corretamente.
+Não é necessário colocar getters ou setters se eles forem apenas métodos de acesso a atributos. 
+Desenvolvimento do Sistema:
+
+Implemente os requisitos projetados em Java.
+Implemente um construtor com parâmetros para cada classe.
+Implemente os getters e setters para validarem os dados.
+Adicione os atributos adicionais sejam porventura necessários.
+Parametrize o código para evitar repetição e aumentar a legibilidade.
+Certifique-se de que seu código seja eficiente e modular.
+Utilize boas práticas de programação e comente seu código conforme necessário para facilitar a compreensão.
+Testes Unitários:
+
+Implemente testes unitários para garantir que os métodos e funcionalidades das classes estejam funcionando corretamente.
+Escreva testes que verifiquem a correta criação dos objetos da classe e da associação entre eles.
